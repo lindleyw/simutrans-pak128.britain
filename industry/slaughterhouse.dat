@@ -41,6 +41,9 @@ InputCapacity[0]=28
 OutputGood[0]=meat
 OutputCapacity[0]=10 
 OutputFactor[0]=29  
+OutputGood[1]=hide
+OutputCapacity[1]=10
+OutputFactor[1]=10
 
 expand_probability=10
 expand_minimum=4
@@ -112,6 +115,9 @@ InputCapacity[0]=84
 OutputGood[0]=meat
 OutputCapacity[0]=21 
 OutputFactor[0]=29  
+OutputGood[1]=hide
+OutputCapacity[1]=10
+OutputFactor[1]=10
 Dims=2,2,4
 
 expand_probability=10
@@ -222,6 +228,9 @@ InputCapacity[0]=168
 OutputGood[0]=meat
 OutputCapacity[0]=42 
 OutputFactor[0]=29  
+OutputGood[1]=hide
+OutputCapacity[1]=20
+OutputFactor[1]=10
 Dims=2,2,4
 
 expand_probability=10
@@ -328,6 +337,9 @@ InputCapacity[0]=294
 OutputGood[0]=meat
 OutputCapacity[0]=84 
 OutputFactor[0]=29  
+OutputGood[1]=hide
+OutputCapacity[1]=20
+OutputFactor[1]=10
 
 expand_probability=10
 expand_minimum=24
@@ -406,6 +418,9 @@ InputCapacity[0]=538
 OutputGood[0]=meat
 OutputCapacity[0]=154 
 OutputFactor[0]=29
+OutputGood[1]=hide
+OutputCapacity[1]=100
+OutputFactor[1]=10
 
 expand_probability=10
 expand_minimum=20

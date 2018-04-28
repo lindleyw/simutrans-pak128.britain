@@ -514,6 +514,48 @@ to_distance[3]=0
 speed_bonus=3
 weight_per_unit=430
 -----------------------
+# Hides (cowhide, sheepskin)
+# Class: III
+obj=good
+name=hide
+metric=paletten
+catg=1
+#
+#value=35
+value=57
+#
+value[0]=67
+to_distance[0]=32
+value[1]=57
+to_distance[1]=48
+value[2]=43
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=430
+-----------------------
+# Leather
+# Class: III
+obj=good
+name=leather
+metric=paletten
+catg=1
+#
+#value=35
+value=57
+#
+value[0]=67
+to_distance[0]=32
+value[1]=57
+to_distance[1]=48
+value[2]=43
+to_distance[2]=80
+value[3]=39
+to_distance[3]=0
+speed_bonus=3
+weight_per_unit=430
+-----------------------
 # Flour
 # Class: C
 obj=good
