@@ -1,13 +1,13 @@
 #
-# Using bookbinder image for now
+# Using derivative of bookbinder image
 #
 Obj=factory
 name=Cooper
 copyright=James
 intro_year=1750
 intro_month=1
-retire_year=1920
-retire_month=7
+retire_year=1892
+retire_month=12
 level=10
 population_and_visitor_demand_capacity=1
 employment_capacity=22
