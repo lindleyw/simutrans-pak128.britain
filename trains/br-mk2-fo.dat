@@ -16,9 +16,11 @@ overcrowded_capacity=0
 length=11
 rolling_resistance=13
 
+# https://www.rmweb.co.uk/community/uploads/monthly_10_2012/post-5212-0-67108500-1350177461.jpg
+weight=33.5
+axles=4
 # Mk. 2s should have a higher purchase but
 # lower running/overhaul cost than Mk. 1s.
-weight=32
 axles=4
 cost=465000
 runningcost=0
@@ -69,11 +71,20 @@ Constraint[Next][30]=BR-Mk3a-FO
 Constraint[Next][31]=BR-Mk3a-TRB
 Constraint[Next][32]=BR-Mk3a-TSO
 Constraint[Next][33]=BR-Mk3a-TRFB
+Constraint[Next][34]=BR-Mk3a-TRFB-pullman
+Constraint[Next][35]=BR-Mk2-PFP
+Constraint[Next][36]=BR-Mk2-PFK
+Constraint[Next][37]=BR-Mk2-PFB
+Constraint[Next][38]=BR-Mk1-PFK
+Constraint[Next][39]=BR-Mk1-PSP
+Constraint[Next][40]=BR-Mk1-PFP
+Constraint[Next][41]=pullman-1951-kitchen-first
 
 liverytype[0]=BR-Blue
 liverytype[1]=IC-Executive
 liverytype[2]=Scotrail-original
 liverytype[3]=Virgin-original
+liverytype[4]=Anglia-original
 
 EmptyImage[E][0]=./carriages/br-mk2-fo-bg_E.0
 EmptyImage[SE][0]=./carriages/br-mk2-fo-bg_SE.0
@@ -110,3 +121,12 @@ EmptyImage[W][3]=./carriages/br-mk2-fo-vt_W.0
 EmptyImage[NW][3]=./carriages/br-mk2-fo-vt_NW.0
 EmptyImage[N][3]=./carriages/br-mk2-fo-vt_N.0
 EmptyImage[NE][3]=./carriages/br-mk2-fo-vt_NE.0
+
+EmptyImage[E][4]=./carriages/br-mk2-fo-anglia_E.0
+EmptyImage[SE][4]=./carriages/br-mk2-fo-anglia_SE.0
+EmptyImage[S][4]=./carriages/br-mk2-fo-anglia_S.0
+EmptyImage[SW][4]=./carriages/br-mk2-fo-anglia_SW.0
+EmptyImage[W][4]=./carriages/br-mk2-fo-anglia_W.0
+EmptyImage[NW][4]=./carriages/br-mk2-fo-anglia_NW.0
+EmptyImage[N][4]=./carriages/br-mk2-fo-anglia_N.0
+EmptyImage[NE][4]=./carriages/br-mk2-fo-anglia_NE.0
