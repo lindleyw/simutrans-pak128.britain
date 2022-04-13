@@ -612,11 +612,11 @@ Concrete narrowboat aqueduct
 ConcreteAqueductTub
 Concrete tub boat aqueduct
 BrickViaductEarly
-Brick arch viaduct
+Brick arch ramp
 BrickViaduct
-Brick arch viaduct
+Brick arch ramp
 MasonryViaduct
-Masonry viaduct
+Masonry ramp
 IronViaduct
 Iron viaduct
 IronBowstringGirderRailBridge
@@ -640,7 +640,7 @@ Concrete bridge
 ConcreteViaductHS
 Concrete bridge (high speed)
 WoodenTrestle
-Wooden trestle bridge
+Wooden bridge
 WoodenTrestleStonePillar
 Wooden trestle bridge (stone pillars)
 TubularBoxGirder
@@ -648,17 +648,17 @@ Tubular box girder bridge
 BeamBridge
 Beam bridge
 WoodTrestleRoad
-Wooden trestle bridge
+Wooden bridge
 BrickViaductRoad
-Brick arch viadict
+Brick arch ramp
 BrickViaductEarlyRoad
-Brick arch viaduct
+Brick arch ramp
 stone_road_bridge_cobbles
 Masonry bridge (cobblestone)
 wooden_road_bridge_dirt
-Wooden trestle bridge
+Wooden bridge
 wooden_road_bridge_surfaced
-Wooden trestle bridge (surfaced)
+Wooden bridge (surfaced)
 ConcreteViaductRoad
 Concrete bridge
 IronGirderBridgeRoad
@@ -674,7 +674,7 @@ Plate girder bridge
 PowerBridge
 High voltage transmission line bridge
 MasonryViaductRoad
-Masonry bridge
+Masonry ramp
 MasonryViaductDirt
 Masonry bridge (unsurfaced)
 Concrete_Maglev_Bridge
@@ -682,15 +682,15 @@ Concrete bridge
 Economical_Concrete_Maglev_Bridge
 Lightweight concrete bridge
 WoodenTrestleNarrow
-Wooden trestle
+Wooden bridge
 BrickViaductNarrow
-Brick arch viaduct
+Brick arch ramp
 ConcreteViaductNarrow
-Concrete viaduct
+Concrete bridge
 IronGirderNarrow
 Iron girder bridge
 MasonryViaductNarrow
-Masonry viaduct
+Masonry ramp
 #____________________________________tunnel_____________________________________
 #____________________________________tunnel_____________________________________
 RailTunnelStone
@@ -6273,9 +6273,9 @@ GWR 1000 "County" Class 4-6-0
 GWR-Hawksworth-County-Tender
 GWR 1000 "County" tender
 gwr-grange
-GWR 4800 "Grange" Class 4-6-0
+GWR 6800 "Grange" Class 4-6-0
 gwr-grange-tender
-GWR 4800 "Grange" tender
+GWR 6800 "Grange" tender
 gwr-4300
 GWR 4300 "Mogul" Class 2-6-0
 LMS-Fowler-3P-Tank
@@ -10326,3 +10326,229 @@ m_class[0]
 Normal
 m_class[1]
 Priority
+#______________________________________Piers________________________________________
+#______________________________________Piers________________________________________
+(PierTooltipA0)
+(allows junctions)
+brickarch
+Brick arch
+brickhalfarchdiag1
+Brick arch diagonal (Left)
+brickhalfarchdiag2
+Brick arch diagonal (Right)
+brickarchdiagsup1
+Brick junction to siagonal (Left)
+brickarchdiagsup1pillar
+Pillar for brick junction to siagonal (Light)
+brickarchdiagsup2
+Brick junction to diagonal (Right)
+brickarchdiagsup2pillar
+Pillar for brick junction to siagonal (Right)
+brickarcharchslope1
+Brick arch sloped
+brickarcharchslope2
+Brick arch steep sloped
+brickarchsup2x
+Brick arch cross junction
+brickarchsup2xpillar
+Pillar for brick arch cross junction
+brickarchsup
+Brick arch juction
+brickarchsuppillar
+Pillar for brick arch junction
+brickfilleddiag
+Brick diagonal head
+brickfilledfilledslope1
+Brick sloped head
+brickfilledfilledslope2
+Brick steep sloped head
+brickfilledstraightarched
+Brick head
+brickhalfarch
+Brick half arch
+bricksinglepillar
+Pillar for brick half arch
+bricksinglepillarsup
+Pillar-like junction
+bricksinglepillarthin
+Thin brick pillar
+brickironarch
+Iron half arch
+brickpillar
+Pillar for brick arch
+brickhalfpillardiag1
+Pillar for brick arch diagonal (left)
+brickhalfpillardiag2
+Pillar for brick arch diagonal (right)
+brickpillarthin
+Two thin brick pillars
+concreteaquaduct
+Concrete aqueduct
+concreteaquaductdiag1
+Concrete aqueduct diagonal (right)
+concreteaquaductdiag2
+Concrete aqueduct diagonal (left)
+concretePier
+Concrete viaduct
+concretedeck
+Concrete elevated
+concretedeckdiag1
+Concrete elevated diagonal
+concretediag1
+Concrete biaduct diagonal (right)
+concretediag2
+Concrete viaduct diagonal (left)
+concretefilleddiag
+Concrete head diagonal
+concretefilledslope1
+Sloped concrete head
+concretefilledslope2
+Sloped concrete head (steep)
+concretefilledstraight
+Concrete head
+concretefilledsup1x
+Junction for concrete head
+concretefilledsup2x
+Cross junction for concrete head
+concretefilledsupdiag1
+Junction for diagonal concrete head (right)
+concretefilledsupdiag2
+Junction for diagonal concrete head (left)
+concretePillar
+Concrete pillar
+concretepillar-wet
+Concrete pillar for shallow ocean
+concretepost1
+Single concrete post
+concretepost3
+Three concrete posts for concrete elevated diagonal
+concretepost4Pier
+Four concrete posts for concrete elevated
+concreteslope1
+Sloped concrete elevated
+concreteslope1down
+Sloped concrete viaduct (pillar on upper end)
+concreteslope1up
+Sloped Concrete Viaduct (pillar on lower end)
+concreteslope2
+Steep sloped concrete elevated
+concretesup2x
+Cross junction for concrete viaduct or elevated
+concretesup
+Junction for concrete viaduct or elevated
+concretesupdiag1
+Junction for diagonal viaduct or elevated (right)
+concretesupdiag2
+Junction for diagonal viaduct or elevated (left)
+ironPier
+Iron lattice
+irondiag1
+Iron lattice diagonal (right)
+irondiag2
+Iron lattice diagonal (left)
+iron-postPier
+Iron lattice pillars
+Ldiag
+Diagonal iron girder
+Ldiagsup1
+Junction for diagonal iron girder (right)
+Ldiagsup2
+Junction for diagonal iron girder (left)
+Lpillardiag
+Three Posts for diagonal iron girder
+Lpillars
+Three Posts for iron girder
+Lpillarsingle
+Single Post for iron girder
+Lslope1
+Sloped iron girder
+Lslope2
+Steep sloped iron girder
+Lstraight
+Iron girder
+Lstraightsup1x
+Junction for iron girder
+Lstraightsup2x
+Cross junction for iron girder
+steeldiag1heavy
+Heavy steel diagonal (left)
+steeldiag2heavy
+Heavy steel diagonal (right)
+steelstraightheavy
+Heavy steel
+stoneaquaduct
+Stone aqueduct
+stoneaquaductdiag
+Diagonal stone aqueduct
+stonearch
+Stone arch
+stonehalfarchdiag1
+Stone arch diagonal (left)
+stonehalfarchdiag2
+Stone arch diagonal (right)
+stonearchdiagsup1
+Junction (Left) for stone arch diagonal
+stonearchdiagsup1pillar
+Pillar for junction (Left) for stone arch diagonal
+stonearchdiagsup2
+Junction (Right) for stone arch diagonal
+stonearchdiagsup2pillar
+Pillar for Junction (Right) for stone arch diagonal
+stonearcharchslope1
+Sloped stone arch
+stonearchsup2x
+Cross junction for stone arch
+stonearchsup2xpillar
+Pillar for cross junction for stone arch
+stonearchsup
+Junction for stone arch
+stonearchsuppillar
+Pillar forjunction for stone arch
+stonefilleddiag
+Diagonal stone head
+stonefilledfilledslope1
+Sloped stone head
+stonefilledfilledslope2
+Steep sloped stone head
+stonefilledstraightarched
+Stone head
+stonesinglepillarthin
+Thin stone pillar
+stonepillar
+Pillar for stone arch
+stonehalfpillardiag1
+Pillar for stone arch diagonal (left)
+stonehalfpillardiag2
+Pillar for stone arch diagonal (eight)
+stonepillarthin
+Two thin stone pillars
+wooddeck
+Timber viaduct
+wooddiag1
+Timber viaduct diagonal (right)
+wooddiag2
+Timber viaduct diagonal (left)
+woodpiles
+Timber piles
+woodpilesingles
+Timber piles (diagonal)
+woodstonedeck
+Timber deck on stone pillars
+woodstonediag1
+Timber deck on stone pillars diagonal (right)
+woodstone-diag2
+Timber deck on stone pillars diagonal (left)
+woodtrestle
+Wood trestle supports
+woodtrestledeck
+Wood trestle
+woodtrestledeckdiag1
+Wood trestle diagonal (right)
+woodtrestledeckdiag2
+Wood trestle diagonal (left)
+woodtrestledeckslope1
+Woed trestle sloped
+woodtrestlediag1
+Wood trestle supports diagonal (right)
+woodtrestlediag2
+Wood trestle supports diagonal (left)
