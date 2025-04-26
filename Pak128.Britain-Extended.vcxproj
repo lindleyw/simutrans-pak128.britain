@@ -1225,6 +1225,8 @@
     <None Include="trains\gnr-h-class.dat" />
     <None Include="trains\gnr-hawthorn-single.dat" />
     <None Include="trains\gnr-howlden-bogie.dat" />
+    <None Include="trains\gnr-k1.dat" />
+    <None Include="trains\gnr-k3.dat" />
     <None Include="trains\gnr-klondyke.dat" />
     <None Include="trains\gnr-n1-class.dat" />
     <None Include="trains\gnr-n2-class.dat" />
@@ -1401,6 +1403,7 @@
     <None Include="trains\lbscr-sub-bogie-54ft.dat" />
     <None Include="trains\lbscr-victoria.dat" />
     <None Include="trains\lbscr-west-end-tank.dat" />
+    <None Include="trains\leyland-railbus.dat" />
     <None Include="trains\lmr-4wheel-first-short-wheelbase.dat" />
     <None Include="trains\lmr-4wheel-mail-short-wheelbase.dat" />
     <None Include="trains\lmr-4wheel-mail.dat" />
@@ -1411,12 +1414,14 @@
     <None Include="trains\lmr-bird.dat" />
     <None Include="trains\lmr-planet-goods.dat" />
     <None Include="trains\lms-0-4-4T.dat" />
+    <None Include="trains\lms-10000.dat" />
     <None Include="trains\lms-10800.dat" />
     <None Include="trains\lms-2p.dat" />
     <None Include="trains\lms-4p-tanks.dat" />
     <None Include="trains\lms-4p.dat" />
     <None Include="trains\lms-coronation-scot.dat" />
     <None Include="trains\lms-emu.dat" />
+    <None Include="trains\lms-garratt.dat" />
     <None Include="trains\lms-hughes.crab.dat" />
     <None Include="trains\lms-ivatt-2p.dat" />
     <None Include="trains\lms-ivatt-4f.dat" />
@@ -1435,11 +1440,16 @@
     <None Include="trains\lner-gresley-express-coach-all-doors-brake.dat" />
     <None Include="trains\lner-gresley-express-coach-all-doors.dat" />
     <None Include="trains\lner-gresley-express-dining.dat" />
+    <None Include="trains\lner-l1.dat" />
     <None Include="trains\lner-p2.dat" />
     <None Include="trains\lner-qaud-art.dat" />
     <None Include="trains\lner-quint-art.dat" />
     <None Include="trains\lner-standard-51ft.dat" />
+    <None Include="trains\lner-steam-railmotor-1924.dat" />
+    <None Include="trains\lner-steam-railmotor-1928.dat" />
     <None Include="trains\lner-tyneside-emu.dat" />
+    <None Include="trains\lner-v1.dat" />
+    <None Include="trains\lner-v3.dat" />
     <None Include="trains\lnwr-17in-coal-engine.dat" />
     <None Include="trains\lnwr-19in-express-goods.dat" />
     <None Include="trains\lnwr-42ft-cor.dat" />
@@ -1593,6 +1603,7 @@
     <None Include="trains\mr-800.dat" />
     <None Include="trains\mr-43ft-arc-carriages.dat" />
     <None Include="trains\mr-43ft-clerestory-carriages.dat" />
+    <None Include="trains\ner-tyne-petrol-electric-railcar.dat" />
     <None Include="trains\ner-tyneside-emu.dat" />
     <None Include="trains\pullman-1908.dat" />
     <None Include="trains\pullman-1928.dat" />
@@ -1644,6 +1655,7 @@
     <None Include="trains\wagon-cool-fast.dat" />
     <None Include="trains\wagon-cool-wooden-wheels.dat" />
     <None Include="trains\wagon-livestock-10t.dat" />
+    <None Include="trains\wagon-livestock-zsx.dat" />
     <None Include="trains\wagon-long-wooden-wheels.dat" />
     <None Include="trains\wagon-passenger.dat" />
     <None Include="trains\wagon-piece-bogie.dat" />
