@@ -2787,13 +2787,21 @@ LMS Class 8F (tender)
 GNR-C1
 GNR Class C1 4-4-2
 GNR-C1-Tender
-GNR Express tender
+GNR express tender
+gnr-k1-tender
+GNR freight tender
+gnr-k3-tender
+GNR mixed traffic tender
 gnr-early-tender
 GNR tender
 GNR-C1-superheated
-GNR C1 Class  4-4-2 (superheated)
+GNR C1 Class 4-4-2 (superheated)
 GNR-Klondyke
 GNR C2 Class "Klondyke" 4-4-2
+gnr-k1
+GNR K1 Class 2-6-0
+gnr-k3
+GNR K3 Class 2-6-0
 gnr-d1
 GNR D1 Class 4-4-0
 gnr-d2
@@ -4331,13 +4339,35 @@ BR Class 717 "Desiro City" EMU (pantograph)
 BR-717Rear
 BR Class 717 "Desiro City" EMU (rear)
 BR-345Front
-BR Class 345 "Aventera" EMU
-BR-345Rear
-BR Class 345 "Aventera" EMU (rear)
-BR-345Middle
-BR Class 345 "Aventera" EMU (centre motor)
+BR Class 345 "Aventra" EMU
 BR-345Panto
-BR Class 345 "Aventera" EMU (pantograph car)
+BR Class 345 "Aventra" EMU (pantograph)
+BR-345Middle
+BR Class 345 "Aventra" EMU (centre motor 1)
+BR-345MS3Front
+BR Class 345 "Aventra" EMU (centre motor 3)
+BR-345TSW
+BR Class 345 "Aventra" EMU (wheelchair accommodation)
+BR-345MS3Rear
+BR Class 345 "Aventra" EMU (centre motor 3, rear)
+BR-345MiddleRear
+BR Class 345 "Aventra" EMU (centre motor 2)
+BR-345PantoRear
+BR Class 345 "Aventra" EMU (pantograph, rear)
+BR-345Rear
+BR Class 345 "Aventra" EMU (rear)
+BR-701Front
+BR Class 701 "Arterio" EMU
+BR-701Panto
+BR Class 701 "Arterio" EMU (pantograph recess)
+BR-701TLW
+BR Class 701 "Arterio" EMU (wheelchair accommodation)
+BR-701Middle
+BR Class 701 "Arterio" EMU (centre motor)
+BR-701PantoRear
+BR Class 701 "Arterio" EMU (pantograph recess, rear)
+BR-701Rear
+BR Class 701 "Arterio" EMU (rear)
 BR-710Front
 BR Class 710 "Aventra" EMU
 BR-710Rear
@@ -4346,6 +4376,14 @@ BR-710Middle
 BR Class 710 "Aventra" EMU (centre motor)
 BR-710Panto
 BR Class 710 "Aventra" EMU (pantograph car)
+BR-720Front
+BR Class 720 "Aventra" EMU
+BR-720Middle
+BR Class 720 "Aventra" EMU (centre motor)
+BR-720Panto
+BR Class 720 "Aventra" EMU (pantograph)
+BR-720Rear
+BR Class 720 "Aventra" EMU (rear)
 BR-769Front
 BR Class 769 DEMU (standard class driving trailer)
 BR-769FrontComposite
@@ -10704,6 +10742,8 @@ ECTFirst
 East Coast Trains
 Eurostar
 Eurostar
+Crossrail
+Crossrail
 #______________________________________Classes______________________________________
 #______________________________________Classes______________________________________
 p_class[0]
