@@ -33,7 +33,7 @@ max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-0Rear
 Constraint[Prev][1]=none
@@ -86,7 +86,7 @@ max_loading_time=50
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-0Front
 
@@ -139,7 +139,7 @@ max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-0Panto
 
@@ -194,7 +194,7 @@ max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-2Rear
 Constraint[Prev][1]=none
@@ -247,7 +247,7 @@ max_loading_time=50
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-2Front
 
@@ -298,7 +298,7 @@ max_loading_time=50
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-2MiddleFront
 
@@ -349,7 +349,7 @@ max_loading_time=50
 
 can_lead_from_rear=0
 bidirectional=1
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-2Panto
 
@@ -402,7 +402,7 @@ max_loading_time=50
 
 can_lead_from_rear=1
 bidirectional=0
-way_constraint_permissive[0]=0
+way_constraint_permissive[2]=2
 
 Constraint[Prev][0]=BR-730-2MiddleRear
 
